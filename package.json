@@ -1,0 +1,11 @@
+{
+  "name": "cloud-expense-tracker-root",
+  "version": "1.0.0",
+  "description": "Root package manager for local development of Cloud Expense Tracker",
+  "scripts": {
+    "install-all": "cd backend && npm install",
+    "dev": "cd backend && npm run dev",
+    "start": "cd backend && npm start"
+  },
+  "private": true
+}
