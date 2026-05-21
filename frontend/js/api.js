@@ -2,7 +2,7 @@
 // Adjust this URL to point to your deployed Azure App Service URL in production
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || !window.location.hostname || window.location.protocol === 'file:'
     ? 'http://localhost:5000/api'
-    : 'https://cloud-expense-tracker-api.azurewebsites.net/api'; // Replace with your Azure backend URL
+    : 'https://expense-tracker-api-rahul-ajatbvdrfgbrdqey.eastasia-01.azurewebsites.net/api';
 
 const apiRequest = async (endpoint, options = {}) => {
     const token = localStorage.getItem('token');
